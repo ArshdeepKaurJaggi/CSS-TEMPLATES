@@ -1,0 +1,152 @@
+<doctype html>
+<html>
+    <head>
+        <title>Facebook page</title>
+        <meta charset="utf-8">
+        <style>
+            *{margin: 0; padding: 0;}
+            .head{background: #365899; height: 100px;position: relative;}
+            .name h1{color: #ffffff;position: absolute; left: 11%; top: 36%;font-size: 45px;}
+            .form1 p{color: #fff;position: absolute; right:34%; top:20%;}
+            .form1 input{position: absolute; right: 29%; top:50%;}
+            .form2 p{color: #fff;position: absolute; right:23%; top:20%;}
+            .form2 input{position: absolute; right: 15%; top:50%;}
+            .form3 input{position: absolute; right: 10%; top:50%;background:#365899; color: #fff; }
+            .form3 input:hover{border: 5px solid #263b68;}
+            .register{position: absolute; right: 0%; top: 20%; height: 500px; width: 600px}
+            .register h1{position: absolute; right: 35%; top: 2%; color: #37393d; font-size: 40px;}
+            .register_fname form input{position: absolute;right: 62%; top: 15%; font-size: 20px; width: 200px; border-radius: 5%;} 
+            .register_sirname form input{position: absolute;right: 22%; top: 15%; font-size: 20px; width: 200px; border-radius: 5%;} 
+            .register_email form input{position: absolute;right: 20%; top: 24%; font-size: 20px; width: 450px; border-radius: 5%;} 
+            .register_password form input{position: absolute;right: 20%; top: 34%; font-size: 20px; width: 450px; border-radius: 5%;} 
+            .register p{position: absolute;right: 86%; top: 44%; font-size: 20px; width: 45px; border-radius: 5%;} 
+            .rb1 form select{position: absolute;right: 86%; top: 50%; font-size: 20px; width: 45px; border-radius: 5%;}
+            .rb2 form select{position: absolute;right: 67%; top: 50%; font-size: 20px; width: 97px; border-radius: 5%;}
+            .rb3 form select{position: absolute;right: 48%; top: 50%; font-size: 20px; width: 97px; border-radius: 5%;}
+            .r-button1{position: absolute;right: 82%; top: 60%;}
+            .r-button2{position: absolute;right: 67%; top: 60%;}
+            .sign-up input{position: absolute;right: 53%; top:70%; background: #69a74e; color: #ffffff; font-size: 30; width: 250px; height: 50px ; border: 5px solid #2c5115}
+        </style>
+    </head>
+    <body>
+        <!....................................Header.......................................>
+        <div class="head">
+            <!.......................................Name........................>
+            <div class="name">
+                <h1>facebook</h1>
+            </div>    
+            <!.......................................Name........................>
+            <!.......................................User Login........................>
+            <div class="form1">
+                <form method="post">
+                    <p>E-Mail or Phone</p>
+                    <input type="email" name="e-mail" required/>
+                </form>
+            </div>    
+            <div class="form2">
+                <form method="post">
+                    <p>Password</p>
+                    <input type="password" name="password" required/>
+                </form>
+            </div> 
+            <div class="form3">
+                <form method="post">
+                    <input type="button" name="Login" value=" Log In "/>
+                </form>
+            </div>
+            <!.......................................User Login........................>
+        </div>
+        <!....................................Header.......................................>
+        <!....................................Register.....................................>
+        <div  class="register">
+            <h1>Create a new Account</h1>
+            <div class="register_fname">
+                <form method="post">
+                    <input type="text" name="f-name" placeholder="Firstname" required/>
+                </form>
+            </div>
+            <div class="register_sirname">
+                <form method="post">
+                    <input type="text" name="sir-name" placeholder="Sirname" required/>
+                </form>
+            </div>
+            <div class="register_email">
+                <form method="post">
+                    <input type="email" name="email" placeholder="Mobile number or email address" required/>
+                </form>
+            </div>
+            <div class="register_password">
+                <form method="post">
+                    <input type="password" name="pass" placeholder="New Password" required/>
+                </form>
+            </div>
+                    <p>Birthday</p>
+            <div class="rb1">
+                    <form method="post">
+                    <select name=sel>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    </form>
+            </div>
+            <div class="rb2">
+                    <form method="post">
+                    <select name=sel1>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    </form>
+            </div>
+            <div class="rb3">
+                    <form method="post">
+                    <select name=sel2>
+                        <option>2010</option>
+                        <option>2009</option>
+                        <option>2008</option>
+                        <option>2007</option>
+                        <option>2006</option>
+                        <option>2005</option>
+                        <option>2004</option>
+                        <option>2003</option>
+                        <option>2002</option>
+                        <option>2001</option>
+                        <option>2000</option>
+                        <option>1999</option>
+                    </select>
+                    </form>
+            </div>
+            <div class="r-button1">
+                <form method="post">
+                    <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;<b>Female</b></form>
+            </div>
+             <div class="r-button2">
+                 <form method="post">
+                     <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;<b>Male</b></form>
+            </div>
+            <div class="sign-up">
+                <form method="post">
+                    <input type="button" name="sign" value="Sign-Up">
+                </form>
+            </div>
+        </div>
+        <!....................................Register.....................................>
+    </body>
+</html>
